@@ -1,0 +1,88 @@
+
+.register{
+    height: 100%;
+    background-color: #C3BEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    .card{
+        width: 50%;
+        height: 80%;
+        
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        /* min-height: 100px; */
+        
+        
+        .top{
+            background: linear-gradient(rgb(176, 103, 245),rgb(62, 61, 61));
+           background-image: url(https://www.pexels.com/photo/happy-volunteers-carrying-boxes-8061641/) center;
+           background-size: cover;
+           padding: 50px;
+           width: 100%;
+           flex-direction: column;
+           color: white;
+        
+
+
+            h1{ 
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+            p{
+                
+                text-align: center;
+                font-size: larger;
+                margin-bottom: 20px;
+            }
+           
+           
+
+        }
+    
+        .bottom{
+            padding: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+           background-color: white;
+
+            h1{ 
+                font-size:2rem;
+
+                font-weight: bold;
+            }
+
+           .buttons{
+            display: flex;
+            flex-direction: row;
+           
+           }
+           
+            button{
+                margin-left: 30px;
+                width: 200px;
+                height: 40px;
+                margin-top: 10px;
+                border-radius: 5px;
+                background-color: rgb(176, 103, 245);
+                border: none;
+           
+                cursor: pointer;
+            }
+            
+        }
+    
+
+    }
+
+    
+
+}
