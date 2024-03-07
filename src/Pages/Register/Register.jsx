@@ -2,7 +2,10 @@ import './Register.css'
 import { Link } from 'react-router-dom'
 
 
+
 function Register() {
+
+
   return (
     <div className='register'>
     <div className='card'>
@@ -23,6 +26,7 @@ function Register() {
         <Link to ='/Volunteer'>
         <button>A volunteer</button>
         </Link>
+        <button>A viewer</button>
         </div>
       </div>
     </div>
