@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+    background-image: url(https://whwmzevsajfomnepcyzz.supabase.co/storage/v1/object/public/MyImgaes/donate%20background.jpg?t=2024-03-12T21%3A30%3A41.674Z) center;
 
     .card{
         width: 50%;
@@ -20,7 +21,6 @@
         
         .top{
             background: linear-gradient(rgb(176, 103, 245),rgb(62, 61, 61));
-           background-image: url(https://www.pexels.com/photo/happy-volunteers-carrying-boxes-8061641/) center;
            background-size: cover;
            padding: 50px;
            width: 100%;

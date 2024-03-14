@@ -1,0 +1,45 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.updated{
+  
+    input{
+        width: 700px;
+        margin-top: 50px;
+        gap: 30px;
+        margin-left: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: none;
+        padding: 20px 10px;
+         margin-bottom: 30px;
+         border-bottom: 1px solid lightgrey;
+    }
+  }
+
+
+
+.updated-post{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 1rem;
+    margin-left: 170px;
+    width: 50%;
+    height: 40px;
+    margin-top: 80px;
+    border-radius: 5px;
+    background-color: rgb(176, 103, 245);
+    border: none;
+
+    cursor: pointer;
+}

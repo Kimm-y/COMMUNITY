@@ -18,11 +18,15 @@ const AuthProvider = ({ children })=> {
         setSession(session)
       })
 
+
+
+
+
       return () => subscription.unsubscribe()
     }, [])
 
     return (
-        <AuthContext.Provider value={{ session }}>
+        <AuthContext.Provider value={{  session }}>
             { children }
         </AuthContext.Provider>
     )

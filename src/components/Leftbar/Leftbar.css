@@ -1,0 +1,56 @@
+.leftbar{
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+   overflow: hidden;
+  
+ 
+ 
+
+   
+    .container{
+       padding: 20px;
+
+        .menu{
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 20px;
+                object-fit: cover;
+
+
+            }
+
+            span{
+                
+            }
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img{
+
+                width: 30px;
+                height: 30px;
+                border-radius: 20px;
+                object-fit: cover;
+
+            }
+
+            span{
+
+            }
+        }
+    }
+}

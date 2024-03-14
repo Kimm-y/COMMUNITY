@@ -45,7 +45,9 @@ function Volunteer() {
           <input type="text" placeholder='username' className='username' />
           <input type="password" placeholder='password' className='password' value={password}  onChange={(e)=>setPassword(e.target.value)}/>
           <input type="password" placeholder='confirm password' className='password2' />
+          <Link to = "/landing">
           <button type='submit'>REGISTER</button>
+          </Link>
         </form>
       </div>
     </div>

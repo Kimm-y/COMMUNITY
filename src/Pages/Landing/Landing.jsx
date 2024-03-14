@@ -1,19 +1,23 @@
-// import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import Leftbar from '../../components/Leftbar/Leftbar'
 import Navbar from '../../components/Navbar/Navbar'
-
+import Home from '../Home/Home'
 import './Landing.css'
-import { Home } from '@mui/icons-material'
 
 function Landing() {
+
+
   return (
     
-    <div>
+    <div className='theme-light'>
       <Navbar/>
       <div style={{display:'flex'}}> 
-      <Leftbar/>
+     <Leftbar/>
+     <div style={{flex:6}}>
+     <Outlet/>
+     <Home/>
    
-
+     </div>
       </div>
     </div>
   )

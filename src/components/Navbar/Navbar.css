@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     height: 50px;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid blueviolet ;
     position: sticky;
     top: 0;
     background-color:white;
@@ -21,6 +21,13 @@
         font-weight: bold;
         font-size: 20px;
        
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
       }
 
       .search {
@@ -45,7 +52,7 @@
     .right {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 50px;
 
     
 
@@ -63,9 +70,31 @@
           object-fit: cover;
         }
 
-        span {
+        button{
+          border: none;
+          cursor: pointer;
+          
         }
       }
+
+    }
+
+    
+    .log-out{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 40px;
+      margin-top: 10px;
+      border-radius: 5px;
+      background-color: rgb(176, 103, 245);
+      border: none;
+ 
+      cursor: pointer;
+    
     }
   }
 

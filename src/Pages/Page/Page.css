@@ -1,0 +1,111 @@
+.profile {
+   margin-bottom: 10px;
+
+  
+    .images {
+      width: 100%;
+      height: 300px;
+      position: relative;
+
+      .cover {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid black;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+      }
+    }
+    .profileContainer {
+      padding: 20px 70px;
+     
+
+
+      .pInfo {
+        height: 180px;
+        box-shadow: black;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+     
+        .left {
+          flex: 1;
+          display: flex;
+          gap: 10px;
+
+         
+
+          a{
+            color: ("textColorSoft");
+          }
+        }
+
+        .center {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+
+          span {
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 20px;
+          }
+
+          .info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .item {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              color: black;
+
+              span {
+                font-size: 12px;
+              }
+            }
+          }
+          button {
+            border: none;
+            display: flex;
+            flex-direction: row;
+            background-color: plum;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+
+        .right {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          gap: 10px;
+        }
+      }
+    }
+  }
