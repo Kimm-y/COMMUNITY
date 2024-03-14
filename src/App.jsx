@@ -32,24 +32,24 @@ function App() {
 
 
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('dark'); 
-  };
+  // const toggleDarkMode = () => {
+  //   setIsDarkMode(!isDarkMode);
+  //   document.documentElement.classList.toggle('dark'); 
+  // };
 
   const { session } = useContext(AuthContext)
 
   return (
     <>
       <div>
-      <button
+      {/* <button
       className="bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-100 font-bold py-2 px-4 rounded inline-flex items-center"
       onClick={toggleDarkMode}
     >
       {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-    </button>
+    </button> */}
       {
         session ? <Landing /> : (
           <>
