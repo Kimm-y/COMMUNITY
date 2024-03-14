@@ -29,11 +29,27 @@
 }
 
 .event {
-  background-color: #f0f0f0;
+  -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  border-radius: 20px;
+
+  color:black;
+  background-color:rgb(200, 141, 255);
+  width: 50%;
+  height: 100px;
   padding: 2px 5px;
   margin-top: 5px;
   font-size: 12px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+ 
+
+
+  >p{
+    padding: 2px 5px;
+    font-size: 1rem;
+    gap: 10px;
+  }
 }

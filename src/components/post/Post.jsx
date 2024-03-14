@@ -18,7 +18,7 @@ const Post = ({post}) => {
             <img src={session ? session.user.user_metadata.picture : "No picture"} alt="" />
             <div className="details">
               <Link
-                to={`/profile/${ session ? session.user.user_metadata.name : "No name"}`}
+                to='./profile'
                 style={{ textDecoration: "none", color: "inherit" }} >
                 <span className="name">{post.owner}</span>
               </Link>

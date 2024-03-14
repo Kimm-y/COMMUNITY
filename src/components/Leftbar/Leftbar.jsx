@@ -31,19 +31,19 @@ function Leftbar() {
         </div>
         </Link>
 
-        <Link to = '/learn' style={{textDecoration: 'none' }}>
+        {/* <Link to = '/learn' style={{textDecoration: 'none' }}>
         <div className="item">
             <img src="https://whwmzevsajfomnepcyzz.supabase.co/storage/v1/object/public/MyImgaes/buddies.png" alt="" />
           
             <span>LEARN MORE</span>
           </div>
-          </Link>
+          </Link> */}
 
  
-          <div className="item">
+          {/* <div className="item">
             <img src="https://whwmzevsajfomnepcyzz.supabase.co/storage/v1/object/public/MyImgaes/organisation.png" alt="" />
             <span>HUMANITARIAN ISSUES</span>
-          </div>
+          </div> */}
           <Link to = '/event' style={{textDecoration: 'none' }}>
           <div className="item">
             <img src="https://whwmzevsajfomnepcyzz.supabase.co/storage/v1/object/public/MyImgaes/calendar.png?t=2024-03-13T07%3A51%3A27.475Z" alt="" />

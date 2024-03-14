@@ -41,14 +41,14 @@ function Profile({ userId }) {
 
   const handleToggleFollow = async () => {
     if (isFollowing) {
-      // Unfollow the user
+      
       await supabase
         .from('follows')
         .delete()
         .eq('follower_id', supabase.auth.user().id)
         .eq('followee_id', userId);
     } else {
-      // Follow the user
+      
       await supabase.from('follows').insert([
         { follower_id: supabase.auth.user().id, followee_id: userId },
       ]);
@@ -100,7 +100,7 @@ function Profile({ userId }) {
               <span>KENYA</span>
             </div>
           </div>
-          <button onClick={handleToggleFollow}>
+          <button onClick={handleToggleFollow}> 
       {isFollowing ? 'Unfollow' : 'Follow'}
     </button>
         </div>

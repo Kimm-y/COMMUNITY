@@ -52,7 +52,10 @@ function Page() {
             </div>
           </div>
           <button>follow</button>
+        
+        <a href="https://www.redcross.or.ke/volunteer/">
           <button>volunteer</button>
+          </a>
         </div>
         <div className="right">
           <EmailOutlinedIcon />

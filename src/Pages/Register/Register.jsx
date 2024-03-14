@@ -26,7 +26,9 @@ function Register() {
         <Link to ='/Volunteer'>
         <button>A volunteer</button>
         </Link>
+        <Link to = '/landing'>
         <button>A viewer</button>
+        </Link>
         </div>
       </div>
     </div>

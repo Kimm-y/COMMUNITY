@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Event.css'; // You can define your own CSS for styling
+import './Event.css'; 
 
 const Calendar = () => {
-  // Example events
+
   const initialEvents = [
     { date: '2024-03-10', title: 'Meeting' },
     { date: '2024-03-15', title: 'Birthday Party' },
@@ -11,11 +11,11 @@ const Calendar = () => {
 
   const [events, setEvents] = useState(initialEvents);
 
-  // Function to render events on the calendar
+
   const renderEvents = (date) => {
     const eventList = events
       .filter((event) => event.date === date)
-      .map((event, index) => (
+     .map((event, index) => (
         <div key={index} className="event">
           {event.title}
         </div>
@@ -23,7 +23,7 @@ const Calendar = () => {
     return eventList;
   };
 
-  // Function to generate calendar days
+ 
   const generateCalendar = () => {
     const calendar = [];
     const currentDate = new Date();
@@ -52,7 +52,11 @@ const Calendar = () => {
     <div className="calendar">
       <div className="header">March 2024</div>
       <div className="days">{generateCalendar()}</div>
-    <div className='event'>{renderEvents}</div>
+    <div className='event'>{renderEvents}
+    <p>date: '2024-03-15', title: 'Visit to Royal Home Orphanage organized by Afrika Tikkun'</p>
+    <p>date: '2024-03-21', title: 'planting trees at Karura, all are welcome'</p>
+    <p>date: '2024-03-30', title: 'charity drive, all food and clothes donations will be transported and distributed by Kenya Red Cross'</p>
+    </div>
     </div>
   );
 };
